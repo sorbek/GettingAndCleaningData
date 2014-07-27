@@ -55,6 +55,6 @@ tidy_averages <- aggregate(tidy_data[, 3:68],
 colnames(tidy_averages)[1:2] <- c("Subject", "Activity")
 
 # output the tidy data files
-write.table(tidy_data, "tidy_data.csv.txt", sep = ",")
-write.table(tidy_averages, "tidy_averages.csv.txt", sep = ",")
+write.csv(tidy_data, file = "tidy_data.csv.txt")
+write.csv(tidy_averages, file = "tidy_averages.csv.txt")
 
