@@ -129,3 +129,105 @@ The run_analysis.R script does the following:
 1. fBodyBodyGyroJerkMag\-mean
 1. fBodyBodyGyroJerkMag\-std
 
+## Variable Units ##
+
+1. Subject : numerical identifier of the subject who carried out the experiment (1 to 30, inclusive)
+1. Activity : character description of the activity name
+   - WALKING
+   - WALKING_UPSTAIRS
+   - WALKING_DOWNSTAIRS
+   - SITTING
+   - STANDING
+   - LAYING
+
+1. tBodyAcc\-mean\-X : no units; normalized and bounded within [\-1, 1]
+1. tBodyAcc\-mean\-Y : no units; normalized and bounded within [\-1, 1]
+1. tBodyAcc\-mean\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. tBodyAcc\-std\-X : no units; normalized and bounded within [\-1, 1]
+1. tBodyAcc\-std\-Y : no units; normalized and bounded within [\-1, 1]
+1. tBodyAcc\-std\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. tGravityAcc\-mean\-X : no units; normalized and bounded within [\-1, 1]
+1. tGravityAcc\-mean\-Y : no units; normalized and bounded within [\-1, 1]
+1. tGravityAcc\-mean\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. tGravityAcc\-std\-X : no units; normalized and bounded within [\-1, 1]
+1. tGravityAcc\-std\-Y : no units; normalized and bounded within [\-1, 1]
+1. tGravityAcc\-std\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. tBodyAccJerk\-mean\-X : no units; normalized and bounded within [\-1, 1]
+1. tBodyAccJerk\-mean\-Y : no units; normalized and bounded within [\-1, 1]
+1. tBodyAccJerk\-mean\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. tBodyAccJerk\-std\-X : no units; normalized and bounded within [\-1, 1]
+1. tBodyAccJerk\-std\-Y : no units; normalized and bounded within [\-1, 1]
+1. tBodyAccJerk\-std\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. tBodyGyro\-mean\-X : no units; normalized and bounded within [\-1, 1]
+1. tBodyGyro\-mean\-Y : no units; normalized and bounded within [\-1, 1]
+1. tBodyGyro\-mean\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. tBodyGyro\-std\-X : no units; normalized and bounded within [\-1, 1]
+1. tBodyGyro\-std\-Y : no units; normalized and bounded within [\-1, 1]
+1. tBodyGyro\-std\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. tBodyGyroJerk\-mean\-X : no units; normalized and bounded within [\-1, 1]
+1. tBodyGyroJerk\-mean\-Y : no units; normalized and bounded within [\-1, 1]
+1. tBodyGyroJerk\-mean\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. tBodyGyroJerk\-std\-X : no units; normalized and bounded within [\-1, 1]
+1. tBodyGyroJerk\-std\-Y : no units; normalized and bounded within [\-1, 1]
+1. tBodyGyroJerk\-std\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. tBodyAccMag\-mean : no units; normalized and bounded within [\-1, 1]
+1. tBodyAccMag\-std : no units; normalized and bounded within [\-1, 1]
+
+1. tGravityAccMag\-mean : no units; normalized and bounded within [\-1, 1]
+1. tGravityAccMag\-std : no units; normalized and bounded within [\-1, 1]
+
+1. tBodyAccJerkMag\-mean : no units; normalized and bounded within [\-1, 1]
+1. tBodyAccJerkMag\-std : no units; normalized and bounded within [\-1, 1]
+
+1. tBodyGyroMag\-mean : no units; normalized and bounded within [\-1, 1]
+1. tBodyGyroMag\-std : no units; normalized and bounded within [\-1, 1]
+
+1. tBodyGyroJerkMag\-mean : no units; normalized and bounded within [\-1, 1]
+1. tBodyGyroJerkMag\-std : no units; normalized and bounded within [\-1, 1]
+
+1. fBodyAcc\-mean\-X : no units; normalized and bounded within [\-1, 1]
+1. fBodyAcc\-mean\-Y : no units; normalized and bounded within [\-1, 1]
+1. fBodyAcc\-mean\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. fBodyAcc\-std\-X : no units; normalized and bounded within [\-1, 1]
+1. fBodyAcc\-std\-Y : no units; normalized and bounded within [\-1, 1]
+1. fBodyAcc\-std\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. fBodyAccJerk\-mean\-X : no units; normalized and bounded within [\-1, 1]
+1. fBodyAccJerk\-mean\-Y : no units; normalized and bounded within [\-1, 1]
+1. fBodyAccJerk\-mean\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. fBodyAccJerk\-std\-X : no units; normalized and bounded within [\-1, 1]
+1. fBodyAccJerk\-std\-Y : no units; normalized and bounded within [\-1, 1]
+1. fBodyAccJerk\-std\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. fBodyGyro\-mean\-X : no units; normalized and bounded within [\-1, 1]
+1. fBodyGyro\-mean\-Y : no units; normalized and bounded within [\-1, 1]
+1. fBodyGyro\-mean\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. fBodyGyro\-std\-X : no units; normalized and bounded within [\-1, 1]
+1. fBodyGyro\-std\-Y : no units; normalized and bounded within [\-1, 1]
+1. fBodyGyro\-std\-Z : no units; normalized and bounded within [\-1, 1]
+
+1. fBodyAccMag\-mean : no units; normalized and bounded within [\-1, 1]
+1. fBodyAccMag\-std : no units; normalized and bounded within [\-1, 1]
+
+1. fBodyBodyAccJerkMag\-mean : no units; normalized and bounded within [\-1, 1]
+1. fBodyBodyAccJerkMag\-std : no units; normalized and bounded within [\-1, 1]
+
+1. fBodyBodyGyroMag\-mean : no units; normalized and bounded within [\-1, 1]
+1. fBodyBodyGyroMag\-std : no units; normalized and bounded within [\-1, 1]
+
+1. fBodyBodyGyroJerkMag\-mean : no units; normalized and bounded within [\-1, 1]
+1. fBodyBodyGyroJerkMag\-std : no units; normalized and bounded within [\-1, 1]
+
