@@ -10,3 +10,9 @@
   - **tidy\_data.csv.txt** (7.97MB)
   - **tidy\_averages.csv.txt** (200KB)
 
+> Note:
+> - Coursera does not allow attaching files with a '.csv' extension. CSV files
+>   need a '.txt' extension to be uploaded to Coursera. However, web browsers
+>   may have difficulty displaying CSV files with a '.txt' extension. Therefore,
+>   the same file with '.csv' extension is also available in this repository.
+

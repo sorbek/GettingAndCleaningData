@@ -12,17 +12,18 @@ The run_analysis.R script does the following:
 - Read in the training and test sets
 - Merge the training and test sets into interim data sets
 - Read in the features list
-- Select the means and standard deviation features (numbering 66 features of interest)
-  from the feature list
-- Subset the primary interim data set by selecting only data of the features of interest
-- Process subject and activity label data.
-- Add processed subject and activity data to the subsetted primary interim data set, to
-  create the tidy data set.
+- Select the means and standard deviation features (numbering 66 features of
+  interest) from the feature list
+- Subset the measurement data by selecting only data from features of interest
+- Combine the subsetted measurement data with the subject and activity data
+- Replace activity values with activity labels to create the tidy data set
 - Output the tidy data set to **tidy\_data.csv.txt**
-- Calculate the average measurement of each feature of interest for each activity and
-  each subject, to create the tidy averages data set. The tidy averages data set is
-  comprised of 180 rows (30 subjects, each with 6 activities) and 68 columns (1 column
-  for each of subject and activity, plus 66 columns for the features of interest).
+- Calculate the average measurement of each feature of interest by subject and
+  activity, to create the tidy averages data set. The tidy averages data set
+  is comprised of 180 rows (30 subjects, each with 6 activities) and 68 columns
+  (1 column for each of subject and activity, plus 66 columns for the features
+  of interest).
+- Rename affected columns from the calulation averages step to previous values
 - Output the tidy averages data set to **tidy\_averages.csv.txt**
 
 ## Variable Names ##

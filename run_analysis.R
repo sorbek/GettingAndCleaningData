@@ -32,21 +32,20 @@ x <- x[features_cols]
 
 # do some naming/renaming
 names(subject) <- "Subject"
+names(y) <- "Activity"
 names(x) = features$V2
 
 # remove parenthesis from names
 names(x) <- gsub("\\(\\)", "", names(x))
 
+# create combined data set
+tidy_data <- cbind(subject, y, x)
+
 # read in activities
 activities <- read.table("UCI HAR Dataset/activity_labels.txt")
 
-# assign activities to values in y
-y <- levels(activities$V2)[y$V1]
-y <- as.data.frame(y)
-names(y) <- "Activity"
-
-# create combined data set
-tidy_data <- cbind(subject, y, x)
+# replace activity labels to activity values
+tidy_data$Activity <- factor(tidy_data$Activity, levels = activities$V1, labels = activities$V2)
 
 # step 5: create tidy data set with averages
 tidy_averages <- aggregate(tidy_data[, 3:68],
@@ -56,6 +55,6 @@ tidy_averages <- aggregate(tidy_data[, 3:68],
 colnames(tidy_averages)[1:2] <- c("Subject", "Activity")
 
 # output the tidy data files
-write.table(tidy_data, "tidy_data.csv.txt")
-write.table(tidy_averages, "tidy_averages.csv.txt")
+write.table(tidy_data, "tidy_data.csv.txt", sep = ",")
+write.table(tidy_averages, "tidy_averages.csv.txt", sep = ",")
 
